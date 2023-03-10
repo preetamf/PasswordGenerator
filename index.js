@@ -34,7 +34,7 @@ function handleSlider() {
 
 //set password strenght indicator colour on UI
 function setIndicator(color) {
-    indicator.style.backgroundColour = color;
+    indicator.style.backgroundColor = color;
     indicator.style.boxShadow = `0px 0px 12px 1px ${color}`;
 }
 
